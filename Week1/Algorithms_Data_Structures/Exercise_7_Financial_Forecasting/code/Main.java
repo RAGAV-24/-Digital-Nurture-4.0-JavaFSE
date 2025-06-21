@@ -1,4 +1,4 @@
-package code;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -27,4 +27,3 @@ public class Main {
         System.out.printf("Predicted future value after %d years: %.2f\n", years, futureValue);
     }
 }
-
