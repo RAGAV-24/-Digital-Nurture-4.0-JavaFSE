@@ -1,0 +1,13 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="bookRepository" class="org.example.repositroy.BookRepository" >
+
+    </bean>
+    <bean id ="bookservice" class="org.example.service.BookService" autowire="byName">
+<!--        <constructor-arg ref="bookrespository"/>-->
+        <property name="book" value="harrypotter" ></property>
+            </bean>
+
+</beans>
